@@ -5,7 +5,7 @@ on:
     # `ci/**` is an explicit debug-validation lane. It never satisfies the
     # tag-only official release condition below, but lets a maintained native
     # batch compile both Android ABIs before any draft-release decision.
-    branches: [main, "ci/**"]
+    branches: [main, "ci/**", "india-rp-dev"]
     tags: ["v*"]
   pull_request:
   workflow_dispatch:
